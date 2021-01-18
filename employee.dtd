@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT employees (employee)+>
+<!ELEMENT employee (id+,name?,qualification*,designation)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT qualification ANY>
+<!ELEMENT designation (#PCDATA)>
+<!-- <!ATTLIST employee gender CDATA #REQUIRED> -->
+<!-- <!ATTLIST employee gender CDATA #IMPLIED> -->
+<!-- <!ATTLIST employee gender CDATA #FIXED "female"> -->
+<!ATTLIST employee gender (male|female) "male">

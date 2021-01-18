@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<student
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:noNamespaceSchemaLocation='program8.xsd'>
+	<sid>385</sid>
+	<sname gender="male"/>
+	<sdept>CSE</sdept>
+</student>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE employees[
+<!ELEMENT employees (employee)+>
+<!ELEMENT employee (id+,name?,qualification*,designation)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT qualification ANY>
+<!ELEMENT designation (#PCDATA)>
+<!ENTITY DSH "D.SAI HARSHITH">
+<!-- <!ATTLIST employee gender CDATA #REQUIRED> -->
+<!-- <!ATTLIST employee gender CDATA #IMPLIED> -->
+<!-- <!ATTLIST employee gender CDATA #FIXED "female"> -->
+<!ATTLIST employee gender (male|female) "male">
+]>
+
+<employees>
+	<employee gender="male">
+		<id>&quot;190030385&quot;</id>
+		<name>&DSH;</name>
+		<qualification>High School Graduate</qualification>
+		<designation>B.Tech Graduate</designation>
+	</employee>
+	<employee gender="female">
+		<id>&quot;190031415&quot;</id>
+		<name>R.JAHNAVI</name>
+		<qualification>High School Graduate</qualification>
+		<designation>B.Tech Graduate</designation>
+	</employee>
+</employees>
