@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+heading
+{
+	font-size: 35px;
+	font-weight: bold;
+	color:white;
+	text-align:center;
+	display:block;
+}
+class{
+	background-color: black;
+}
+student
+{
+	color:black;
+	font-size: 30px;
+	display:block;
+	margin-bottom:20px;
+}
+name,id,branch,cgpa
+{
+	font-size: 20px;
+	display: block;
+	color:red;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style-prelab.css"?>
+<class>
+	<heading>Student Details</heading>
+	<student>
+		<name>Name: Harshith</name>
+		<id>ID: 123</id>
+		<branch>BRANCH: CSE</branch>
+		<cgpa>CGPA: 9.5</cgpa>
+	</student>	
+	<student>
+		<name>Name: Dev</name>
+		<id>ID: 124</id>
+		<branch>Branch: ME</branch>
+		<cgpa>CGPA: 9.5</cgpa>
+	</student>	
+	<student>
+		<name>Name: Ajay</name>
+		<id>ID: 125</id>
+		<branch>Branch: CE</branch>
+		<cgpa>CGPA: 9.5</cgpa>
+	</student>	
+	<student>
+		<name>Name: Vijay</name>
+		<id>ID: 126</id>
+		<branch>Branch: IT</branch>
+		<cgpa>CGPA: 9.5</cgpa>
+	</student>	
+	<student>
+		<name>Name: Ram</name>
+		<id>ID: 127</id>
+		<branch>Branch: EEE</branch>
+		<cgpa>CGPA: 9</cgpa>
+	</student>
+</class>
